@@ -39,8 +39,11 @@ print(evens)
 print()
 from functools import reduce
 print("Reduce")
+
 l3=[1,2,3,4,5]
 res=reduce(lambda x,y:x+y,l3)
+
 res1=reduce(lambda x,y:x if x>y else y,l3)
+
 print(res)
 print(res1)
